@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(netflix-octobre-contenus-2022.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+}
+h2{
+    text-transform: uppercase;
+    color: #ff000d;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.container{
+    display: flex;
+    color: rgb(255, 235, 235);
+    justify-content: center;
+    align-items: center;
+}
+h1 img{
+    width: 150px;
+    padding: 10px 50px;
+}
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:68px 68px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+.login-btn {
+    background-color: #d71c25df;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.login-btn:hover {
+    background-color: #ff000d;
+}
